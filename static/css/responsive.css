@@ -1,0 +1,453 @@
+
+/*============ Very large Device ===========*/
+@media (min-width:1441px) and (max-width:1919px){
+    .inner_subscribe_left_cont h2 {
+        font-size: 32px;
+    }
+    .header_item_main {
+        flex-wrap: nowrap;
+    }
+    .dtbtn {
+        padding: 12px 19px;
+    }
+}
+/*============ Desktop Device ===========*/
+@media (min-width:1366px) and (max-width:1440px){
+    .dtbtn {
+        padding: 12px 11px;
+    }
+    .inner_main_nav_area >ul >li >a {
+        margin: 35px 8px;
+    }
+    .single_team_item h2 a {
+        font-size: 20px;
+    }
+    .client_bg {
+        padding: 40px 20px 130px 70px;
+    }
+    .pricing_area {
+        padding: 60px 20px 60px 20px;
+    }
+    .contact_middle {
+        padding: 70px 48px 55px;
+        margin: 88px -209px 100px 255px;
+    }
+}
+/*============ Laptop Device ===========*/
+@media (min-width:1024px) and (max-width:1365px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500;
+    }
+    .header_top {
+        padding: 10px 15px;
+    }
+    .glowbal_nav_area {
+        padding: 0 20px;
+    }
+    .inner_main_nav_area >ul >li >a {
+        margin: 35px 4px 35px;
+    }
+    /* slider area css */
+    .inner_slider_area {
+        height: 700px;
+    }
+    .inner_slider_content, .stblog img {
+        width: 100%;
+    }
+    .dtbtn {
+        font-size: 14px;
+        padding: 12px 7px;
+    }
+    .cal_title h2 {
+        font-size: 40px;
+    }
+    .witrlistw ul li a {
+        padding: 20px 30px 20px 30px;
+    }
+    .pricing_area {
+        padding: 60px 15px 60px 15px;
+    }
+    .all_pricing_color ul li {
+        font-size: 14px;
+    }
+    .team_member_area {
+        padding: 55px 0 40px;
+    }
+    .single_team_item h2 a {
+        font-size: 18px;
+    }
+    .single_team_item {
+        padding: 20px 14px 20px;
+    }
+    .client_bg {
+        margin: 0 0  100px 0;
+        padding: 35px 20px 115px 70px;
+    }
+    .single_testimonial img {
+        margin-left: 0;
+        width: 100%;
+    }
+    .dt_client_title h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .testimonial_area {
+        padding: 110px 0 0;
+    }
+    .single_feature {
+        margin: 0 18px 20px;
+    }
+    .inner_img_area:hover .inner_img_context {
+        margin: 0;
+    }
+    .contact_middle {
+        padding: 70px 15px 55px;
+        margin: 88px 0 100px 0;
+    }
+    .ycalender_inner {
+        padding: 20px 14px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+    }
+    .ycalender_inner th {
+        padding: 10px 11px;
+    }
+}
+
+/*============= Tablet Large device ===============*/
+@media (min-width:992px) and (max-width:1023px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500;
+    }
+    .header_top {
+        padding: 10px 15px;
+    }
+    .glowbal_nav_area {
+        padding: 0 25px;
+    }
+    .inner_main_nav_area >ul >li >a {
+        margin: 35px 4px 35px;
+    }
+    /* slider area css */
+    .inner_slider_area {
+        height: 700px;
+    }
+    .inner_slider_content, .stblog img {
+        width: 100%;
+    }
+    .single_feature {
+        margin: 0 18px 20px;
+    }
+    .inner_img_area:hover .inner_img_context {
+        margin: 0;
+    }
+    .dtbtn {
+        font-size: 14px;
+        padding: 12px 7px;
+    }
+    .cal_title h2 {
+        font-size: 40px;
+    }
+    .witrlistw ul li a {
+        padding: 20px 30px 20px 30px;
+    }
+    .pricing_area {
+        padding: 60px 15px 60px 15px;
+    }
+    .all_pricing_color ul li {
+        font-size: 14px;
+    }
+    .team_member_area {
+        padding: 55px 0 40px;
+    }
+    .single_team_item h2 a {
+        font-size: 18px;
+    }
+    .single_team_item {
+        padding: 20px 14px 20px;
+    }
+    .client_bg {
+        margin: 0 0  100px 0;
+        padding: 35px 20px 115px 70px;
+    }
+    .single_testimonial img {
+        margin-left: 0;
+        width: 100%;
+    }
+    .dt_client_title h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .single_feature {
+        margin: 0 18px 20px;
+    }
+    .testimonial_area {
+        padding: 110px 0 0;
+    }
+    .contact_middle {
+        padding: 70px 15px 55px;
+        margin: 88px 0 100px 0;
+    }
+    .ycalender_inner {
+        padding: 20px 14px;
+    }
+    .ycalender_inner td {
+        padding: 10px 10px;
+    }
+    .ycalender_inner th {
+        padding: 10px 11px;
+    }
+}
+/*============= Tablet device ===============*/
+@media (min-width:768px) and (max-width:991px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500;
+    }
+    .header_top {
+        padding: 10px 0;
+    }
+    .mobile_logo_area{
+        display: block !important;
+        padding: 10px 0;
+    } 
+    .header_top, .top_menu_right{
+        text-align: center;
+        justify-content: center;
+    }
+     /* main nav area css */
+     .main_menu_area{
+        display: none;
+    }
+     /* slider area css */
+     .inner_slider_area {
+        height: 500px;
+    }
+    .inner_slider_content {
+        width: 100%;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    .inner_slider_content h2, .inner_slider_content h3 {
+        font-size: 40px;
+    }
+    .cal_title h2 {
+        font-size: 40px;
+    }
+    .wblogcontent {
+        padding: 30px 18px 30px;
+    }
+    .video_area {
+        padding: 150px 0;
+    }
+    .inner_video_area {
+        position: relative;
+        left: 50%;
+    }
+    .yblog_left_sub h2 a {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .pricing_area {
+        padding: 60px 10px 60px 8px;
+    }
+    .single_team_item h2 a {
+        font-size: 17px;
+    }
+    .client_bg {
+        margin: 0;
+        padding: 10px 10px;
+    }
+    .dt_client_title h2 {
+        font-size: 39px;
+        margin: 0 0 8px;
+    }
+    .single_testimonial img {
+        margin-left: 0;
+        width: 100%;
+    }
+    .stblog {
+        margin-bottom: 20px;
+    }
+    .contact_middle {
+        padding: 70px 15px 55px;
+        margin: 0;
+    }
+    .inner_contact_content h2 {
+        font-size: 40px;
+    }
+    .ycalender_inner {
+        padding: 20px 16px;
+    }
+}
+
+/*============= mobile large device ===============*/
+@media (max-width:767px){
+    h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        font-weight: 500;
+    }
+    .mobile_logo_area{
+        display: block !important;
+        padding: 10px 0;
+    }
+    .header_top {
+        padding: 10px;
+    }
+    .header_item_main {
+        margin: 10px 0;
+    }
+     /* main nav area css */
+     .main_menu_area{
+        display: none;
+    }
+     /* slider area css */
+     .inner_slider_area {
+        height: 500px;
+    }
+    .inner_slider_content {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .inner_slider_content p {
+        width: 97%;
+    }
+    .inner_slider_content h2, .inner_slider_content h3 {
+        font-size: 40px;
+    }
+    .section_title h2, .cal_title h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .about_icon a {
+        margin-bottom: 20px;
+    }
+    .single_marquee_mdls h2 {
+        font-size: 55px;
+    }
+    .client_bg {
+        margin: 100px 0  100px 0;
+        padding: 110px 20px 80px 70px;
+    }
+    .testimonial_area {
+        padding: 104px 0 0;
+    }
+    .contact_middle {
+        margin: 88px 0 100px 0;
+    }
+
+}
+/*============= mobile device ===============*/
+@media (min-width:320px) and (max-width:480px){
+    .header_top {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .top_menu_right {
+        justify-content: center;
+    }
+    .inner_slider_content h2, .inner_slider_content h3 {
+        font-size: 26px;
+    }
+    .main_about {
+        display: block;
+    }
+    .about_icon a {
+        display: inline-block;
+    }
+    .about_icon {
+        text-align: center;
+    }
+    .witrlistw ul li a {
+        padding: 20px 29px 20px 30px;
+    }
+    .pricing_area {
+        padding: 60px 5px 60px 5px;
+    }
+    .inner_breadcum_area h1 {
+        font-size: 30px;
+    }
+    .all_pricing_color ul li {
+        font-size: 16px;
+    }
+    .team_member_area {
+        padding: 55px 0 40px;
+    }
+    .single_team_item h2 a {
+        font-size: 20px;
+    }
+    .dt_client_title h2 {
+        font-size: 28px;
+    }
+    .client_bg {
+        margin: 16px 0  77px 0;
+        padding: 110px 4px 80px 5px;
+    }
+    .client_bg {
+        padding: 13px 4px 90px 5px;
+    }
+    .stblog {
+        margin-bottom: 20px;
+    }
+    .contact_middle {
+        padding: 70px 0 55px;
+    }
+    .inner_contact_content h2 {
+        font-size: 35px;
+    }
+    .single_contact_img img{
+        width: 100%;
+    }
+    .footer_area {
+        text-align: center;
+    }
+    .footer_widget_middle h2::after {
+        left: 36%;
+    }
+    .single_feature {
+        gap: 5px;
+    }
+    .feature_icon i{
+        font-size: 35px;
+        width: 70px;
+        height: 70px;
+        line-height: 58px;
+    }
+    .video_area {
+        padding: 122px 0;
+    }
+    .pricing-part ul, .pricing-part {
+        text-align: center;
+    }
+    .single_testimonial img {
+        margin-left: 0;
+        width: 100%;
+    }
+    .contact_area {
+        padding: 0 0 0;
+    }
+    .portfolio_title h2 {
+        font-size: 32px;
+    }
+    .contact_text p {
+        width: 100%;
+    }
+    .about_content p {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .yblog_left_sub h2 a {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .ycalender_inner td {
+        padding: 10px 8px;
+    }
+    .ycalender_inner th {
+        padding: 10px 12px;
+    }
+    #scrollUp {
+        bottom: 100px;
+    }
+}
