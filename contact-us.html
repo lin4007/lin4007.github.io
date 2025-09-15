@@ -16,6 +16,7 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/slick.js"></script>
+        <script src="assets/js/gen_validatorv4.js"></script>
     </head>
     <body>
          <!--MG Header Start Here-->
@@ -217,7 +218,7 @@
                     <div class="modal-body align-items-center d-flex">
                         <div class="mg-search-pop-form-outer w-100">
                             <div class="search-heading"></div>
-                           <form>
+                            <form>
                                 <input type="text" class="form-control" placeholder="Search here...">
                             </form>
                         </div>
@@ -233,7 +234,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active">FAQ</li>
+                        <li class="breadcrumb-item active">Contact Us</li>
                     </ol>
                 </nav>
             </div>
@@ -243,105 +244,73 @@
         <div class="mg-page-outer">
             <div class="container-fluid gx-lg-5 gx-md-4">
                 <div class="mg-section-tittles text-center">
-                    <h2 class="mg-heading">FAQ</h2>
+                    <h2 class="mg-heading">Contact Us</h2>
                 </div>
             </div>
             <div class="container-lg gx-lg-5 gx-md-4">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Search here..." aria-label="Search here..." aria-describedby="mg-faq-search-button">
-                    <button class="btn btn-outline-secondary" type="button" id="mg-faq-search-button">Search</button>
-                </div>
-                <div class="mg-accordian-outer">
-                    <div  id="mg-privacy-policy" class="accordion accordion-flush" >
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tab1">
-                                    General information
-                                </button>
-                            </h2>
-                            <div id="tab1" class="accordion-collapse collapse show"  data-bs-parent="#mg-privacy-policy">
-                                <div class="accordion-body"><p>Welcome to our Privacy Policy page! When you use our store services, 
-                                    you trust us with your information. This Privacy Policy is meant to help you understand what 
-                                    data we collect, why we collect it, and what we do with it. When you share information with us, 
-                                    we can make our services even better for you. For instance, we can show you more relevant search 
-                                    results and ads, help you connect with people or to make sharing with others quicker and easier. 
-                                    As you use our services, we want you to be clear how we’re using information and the ways in which 
-                                    you can protect your privacy. This is important; we hope you will take time to read it carefully. 
-                                    Remember, you can find controls to manage your information and protect your privacy and security. 
-                                    We’ve tried to keep it as simple as possible.</p></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mg-contact-description-pannel-outer">
+                            <div class="mg-contact-description-pannel">
+                            <h3>We’re here to help you!</h3>
+                            <p>Have a question, comment, or brilliant idea you'd like to share? 
+                                Send us a little note below - we love to hear from you and will always reply!</p>
+                        </div>
+                        <div class="row">
+                             <div class="col-6 mt-3 mb-5 mg-contact-detail-pannel-outer">
+                                <div class="mg-contact-detail-pannel-inner">
+                                    <img class="mg-contact-detail-icon" src="assets/images/phone.svg" alt="" />
+                                    <p class="mg-contact-detail-heading">Phone Number:</p>
+                                    <p class="mg-contact-detail-subheading">Call Us: <a href="tel:1800123158">1800 123 158</a></p>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-3 mb-5 mg-contact-detail-pannel-outer">
+                                <div class="mg-contact-detail-pannel-inner">
+                                    <img class="mg-contact-detail-icon" src="assets/images/envelope.svg" alt="" />
+                                    <p class="mg-contact-detail-heading">Email Address:</p>
+                                    <p class="mg-contact-detail-subheading"><a href="mailto:info@example.com">info@example.com</a></p>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-3 mb-5 mg-contact-detail-pannel-outer">
+                                <div class="mg-contact-detail-pannel-inner">
+                                    <img class="mg-contact-detail-icon" src="assets/images/location.svg" alt="" />
+                                    <p class="mg-contact-detail-heading">Location:</p>
+                                    <p class="mg-contact-detail-subheading">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mt-3 mb-5 mg-contact-detail-pannel-outer">
+                                <div class="mg-contact-detail-pannel-inner">
+                                    <img class="mg-contact-detail-icon" src="assets/images/clock.svg" alt="" />
+                                    <p class="mg-contact-detail-heading">Opening Hours:</p>
+                                    <p class="mg-contact-detail-subheading">Mon-Fri: 9:00 am - 6:00 pm<br> Sat: 9:00 am - 4:00 pm</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tab2">
-                                    Management of personal data
-                                </button>
-                            </h2>
-                            <div id="tab2" class="accordion-collapse collapse"  data-bs-parent="#mg-privacy-policy">
-                                <div class="accordion-body"><p>Welcome to our Privacy Policy page! When you use our store services, 
-                                    you trust us with your information. This Privacy Policy is meant to help you understand what 
-                                    data we collect, why we collect it, and what we do with it. When you share information with us, 
-                                    we can make our services even better for you. For instance, we can show you more relevant search 
-                                    results and ads, help you connect with people or to make sharing with others quicker and easier. 
-                                    As you use our services, we want you to be clear how we’re using information and the ways in which 
-                                    you can protect your privacy. This is important; we hope you will take time to read it carefully. 
-                                    Remember, you can find controls to manage your information and protect your privacy and security. 
-                                    We’ve tried to keep it as simple as possible.</p></div>
-                            </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tab3">
-                                    Information we collect
-                                </button>
-                            </h2>
-                            <div id="tab3" class="accordion-collapse collapse"  data-bs-parent="#mg-privacy-policy">
-                                <div class="accordion-body"><p>Welcome to our Privacy Policy page! When you use our store services, 
-                                    you trust us with your information. This Privacy Policy is meant to help you understand what 
-                                    data we collect, why we collect it, and what we do with it. When you share information with us, 
-                                    we can make our services even better for you. For instance, we can show you more relevant search 
-                                    results and ads, help you connect with people or to make sharing with others quicker and easier. 
-                                    As you use our services, we want you to be clear how we’re using information and the ways in which 
-                                    you can protect your privacy. This is important; we hope you will take time to read it carefully. 
-                                    Remember, you can find controls to manage your information and protect your privacy and security. 
-                                    We’ve tried to keep it as simple as possible.</p></div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tab4">
-                                    How we use your information
-                                </button>
-                            </h2>
-                            <div id="tab4" class="accordion-collapse collapse"  data-bs-parent="#mg-privacy-policy">
-                                <div class="accordion-body"><p>Welcome to our Privacy Policy page! When you use our store services, 
-                                    you trust us with your information. This Privacy Policy is meant to help you understand what 
-                                    data we collect, why we collect it, and what we do with it. When you share information with us, 
-                                    we can make our services even better for you. For instance, we can show you more relevant search 
-                                    results and ads, help you connect with people or to make sharing with others quicker and easier. 
-                                    As you use our services, we want you to be clear how we’re using information and the ways in which 
-                                    you can protect your privacy. This is important; we hope you will take time to read it carefully. 
-                                    Remember, you can find controls to manage your information and protect your privacy and security. 
-                                    We’ve tried to keep it as simple as possible.</p></div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tab5">
-                                    Sharing your information
-                                </button>
-                            </h2>
-                            <div id="tab5" class="accordion-collapse collapse"  data-bs-parent="#mg-privacy-policy">
-                                <div class="accordion-body"><p>Welcome to our Privacy Policy page! When you use our store services, 
-                                    you trust us with your information. This Privacy Policy is meant to help you understand what 
-                                    data we collect, why we collect it, and what we do with it. When you share information with us, 
-                                    we can make our services even better for you. For instance, we can show you more relevant search 
-                                    results and ads, help you connect with people or to make sharing with others quicker and easier. 
-                                    As you use our services, we want you to be clear how we’re using information and the ways in which 
-                                    you can protect your privacy. This is important; we hope you will take time to read it carefully. 
-                                    Remember, you can find controls to manage your information and protect your privacy and security. 
-                                    We’ve tried to keep it as simple as possible.</p></div>
-                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mg-contact-form-pannel-outer">
+                            <form id="mg-contact-form" action="javascript:mg_contact_form();" class="mg-form">
+                                <div class="mb-3">
+                                    <label class="form-label">Name</label>
+                                    <input type="text" class="form-control mg-input" name="name" placeholder="Enter your name">
+                                    <div id="mg-contact-form_name_errorloc" class="error_strings text-danger"></div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="text" class="form-control mg-input" name="email" placeholder="Enter your email address">
+                                    <div id="mg-contact-form_email_errorloc" class="error_strings text-danger"></div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="form-control  mg-input" name="message" placeholder="Your message"></textarea>
+                                    <div id="mg-contact-form_message_errorloc" class="error_strings text-danger"></div>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <button type="submit" class="btn mg-btn mg-light-bg-btn mg-form-btn">Submit Your Request</button>
+                                </div>
+                                <div class="mg-form-alert"></div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -349,7 +318,7 @@
         </div>
         <!--MG Page End Here-->
         <!--About Page End Here-->
-       <!--MG Footer Start Here-->
+        <!--MG Footer Start Here-->
         <footer>
             <div class="mg-footer-outer">
                 <div class="container-fluid gx-lg-5 gx-md-4">
@@ -440,5 +409,6 @@
         <!--MG Footer End Here-->
          <script src="assets/js/mg-menu.js"></script>
          <script src="assets/js/mg-common.js"></script>
+         <script src="assets/js/pages/mg-contact.js"></script>
     </body>
 </html>
